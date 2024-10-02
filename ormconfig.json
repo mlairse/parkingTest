@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "username": "postgres",
+  "password": "postgres",
+  "host": "localhost",
+  "port": 5433,
+  "database": "parking",
+  "entities": ["src/modules/**/*.entity.{ts,js}"],
+  "migrations": ["src/database/migrations/*{.ts,.js}"],
+  "cli": {
+    "migrationsDir": "src/database/migrations"
+  }
+}
